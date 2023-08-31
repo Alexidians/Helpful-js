@@ -19,10 +19,8 @@ function notify(text) {
 function notifyPermRequest() {
  if(Notification.permission !== "denied" && Notification.permission !== "granted")
   Notification.requestPermission
-  return Notification.permission;
- } else {
-  return Notification.permission;
  }
+ return Notification.permission;
 }
 
 //Closes the Notification from the Given Notification Variable
