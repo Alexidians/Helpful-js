@@ -15,13 +15,11 @@ function notify(text) {
   }
 }
 
-//Requests Notification Permissions with checking if its disabled or allowed if none than asks and returns the value "denied", "granted", or "ask" but if disabled or enabled returns the current value
+//Requests Notification Permissions with checking if its disabled or allowed if none than asks
 function notifyPermRequest() {
  if(Notification.permission !== "denied" && Notification.permission !== "granted")
   Notification.requestPermission
  }
- var perms = Notification.permission
- return perms;
 }
 
 //Closes the Notification from the Given Notification Variable
