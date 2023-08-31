@@ -1,4 +1,4 @@
 # Helpful JS
-Use This to Play sound files add videos and more
+Use these js tools to Improve Your Site
 
 Try Here: https://alexidians.github.io/Helpful-js
