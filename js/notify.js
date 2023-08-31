@@ -27,5 +27,5 @@ function notifyPermRequest() {
 
 //Closes the Notification from the Given Notification Variable
 function closeNotification(notification) {
- 
+ notification.close()
 }
