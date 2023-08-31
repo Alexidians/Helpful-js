@@ -1,4 +1,4 @@
-# File Runner/Player
+# Helpful JS
 Use This to Play sound files add videos and more
 
-Try Here: https://alexidians.github.io/File-Runner-Player
+Try Here: https://alexidians.github.io/Helpful-js
