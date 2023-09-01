@@ -16,7 +16,7 @@ function setBackgroundMode(mode) {
    document.body.style.backgroundImage = null
   }
   else {
-   console.error("When Trying to use setBackgroudMode("mode") an invalid mode was provided")
+   console.error("When Trying to use setBackgroudMode('mode') an invalid mode was provided")
   }
  }
 }
