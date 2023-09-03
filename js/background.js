@@ -6,7 +6,7 @@ document.body.appendChild(backgroundConnect)
 //Set The Background Mode to light or dark
 function setBackgroundMode(mode) {
  if(mode == "light") {
-  ackgroundConnect.href = "https://alexidians.github.io/Helpful-js/css/background/light-mode.css"
+  backgroundConnect.href = "https://alexidians.github.io/Helpful-js/css/background/light-mode.css"
   document.body.style.backgroundColor = null
   document.body.style.backgroundImage = null
  } else {
