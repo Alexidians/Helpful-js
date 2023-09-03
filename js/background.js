@@ -6,12 +6,12 @@ document.body.appendChild(backgroundConnect)
 //Set The Background Mode to light or dark
 function setBackgroundMode(mode) {
  if(mode == "light") {
-  ackgroundConnect.href = "https://alexidians.github.io/css/background/light-mode.css"
+  ackgroundConnect.href = "https://alexidians.github.io/Helpful-js/css/background/light-mode.css"
   document.body.style.backgroundColor = null
   document.body.style.backgroundImage = null
  } else {
   if(mode == "dark") {
-   backgroundConnect.href = "https://alexidians.github.io/css/background/dark-mode.css"
+   backgroundConnect.href = "https://alexidians.github.io/Helpful-js/css/background/dark-mode.css"
    document.body.style.backgroundColor = null
    document.body.style.backgroundImage = null
   }
