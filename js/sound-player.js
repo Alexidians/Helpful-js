@@ -1,5 +1,6 @@
 function playSound(url) {
- var soundElem = document.createElement("audio autoplay")
+ var soundElem = document.createElement("audio")
+ soundElem.autoplay
  soundElem.style.display = "none"
  var soundSource = document.createElement("source")
  soundSource.src = url
