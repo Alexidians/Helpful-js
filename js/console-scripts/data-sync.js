@@ -7,6 +7,6 @@ var copyedCookies = document.cookie
 targetWeb.eval("document.cookie = " + copyedCookies)
 var copyedSessionStorage = sessionStorage
 targetWeb.eval("sessionStorage = " + copyedSessionStorage)
-targetWeb.eval("console.debug('Copyed Data from ' + location.href)")
-console.debug("Data Pasted to " targetWeb.eval("location.href"))
+targetWeb.close()
+console.debug("Data Synhronized Sucessfully")
 */
