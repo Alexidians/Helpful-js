@@ -14,8 +14,8 @@ console.debug("Data Synhronized Sucessfully")
 /*run the scripts that are logged in debug to paste the data on the site where you want to script:
 console.debug("//Paste Scripts")
 console.debug("document.cookie = " + document.cookie)
-console.debug("localStorage = " + localStorage)
-console.debug("sessionStorage = " + sessionStorage)
+console.debug("localStorage = //type localStorage in console to receive Value")
+console.debug("sessionStorage = //type sessionStorage in console to receive Value")
 */
 //document.cookie is for cookies
 //localStorage is for local Storage
