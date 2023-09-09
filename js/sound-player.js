@@ -8,4 +8,5 @@ function playSound(url) {
  soundSource.type = "audio/" + splitSoundUrl[splitSoundUrl.length]
  soundElem.appendChild(soundSource)
  document.body.appendChild(soundElem)
+ soundElem.play()
 }
