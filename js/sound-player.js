@@ -1,12 +1,9 @@
-function playSound(url) {
- var soundElem = document.createElement("audio")
- soundElem.autoplay
- soundElem.style.display = "none"
- var soundSource = document.createElement("source")
- soundSource.src = url
- var splitSoundUrl = url.split(".")
- soundSource.type = "audio/" + splitSoundUrl[splitSoundUrl.length]
- soundElem.appendChild(soundSource)
- document.body.appendChild(soundElem)
- soundElem.play()
-}
+      function playSound(url) {
+       var player = document.getElementById("audio")
+       var playerSource = document.createElement("source")
+       playerSource.src = url
+       playerSource.type = "audio/" + url.split(".")[url.split(".").length]
+       player.appendChild(playerSource)
+       document.body.appendChild(player)
+       player.play()
+      }
